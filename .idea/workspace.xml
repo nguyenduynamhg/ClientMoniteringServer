@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac00d54-d157-47c3-a0eb-acad87737100" name="Changes" comment="Add: Form serverLogin, clientLogin">
-      <change afterPath="$PROJECT_DIR$/photo-1592853285454-34691b7b74c4.jpeg" afterDir="false" />
+    <list default="true" id="7ac00d54-d157-47c3-a0eb-acad87737100" name="Changes" comment="Add: Update serverLogin, clientLogin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/views/clientLogin.form" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/views/clientLogin.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/views/clientLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/views/clientLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/views/App.form" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/views/App.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/src/constants/CoreConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/constants/CoreConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/views/ServerLogin.form" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/views/ServerLogin.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/views/ServerLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/views/ServerLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/views/App.form" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/views/App.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
     "last_opened_file_path": "/home/namnd/Desktop/ClientMoniteringServer",
@@ -122,7 +120,8 @@
       <updated>1661446470848</updated>
       <workItem from="1661446474051" duration="300000" />
       <workItem from="1661526852921" duration="3844000" />
-      <workItem from="1661571497078" duration="3288000" />
+      <workItem from="1661571497078" duration="3324000" />
+      <workItem from="1661587586894" duration="3896000" />
     </task>
     <task id="LOCAL-00001" summary="Add: Log File">
       <created>1661528279441</created>
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661531019020</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add: Update serverLogin, clientLogin">
+      <created>1661574952431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661574952431</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +177,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add: Log File" />
     <MESSAGE value="Add: Form serverLogin, clientLogin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: Form serverLogin, clientLogin" />
+    <MESSAGE value="Add: Update serverLogin, clientLogin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: Update serverLogin, clientLogin" />
   </component>
 </project>

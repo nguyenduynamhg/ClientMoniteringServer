@@ -79,12 +79,12 @@ public class CoreConstants {
     public static final String ACTION_LABEL = "Hành động";
     public static final String TIME_LABEL = "Thời gian";
     public static final String APP_TITLE = "Client Remote Monitor App";
-    public static final String PARAMETERS_EXCEPTION = "Run with required parameters. Example: java RemoteFileSync master 8888 c:\\test\\";
+    public static final String PARAMETERS_EXCEPTION = "\n" + "Chạy với các thông số bắt buộc. Example: java RemoteFileSync master 8888 c:\\test\\";
     public static final String FIRST_PARAMETERS_EXCEPTION = "First argument should be 'master' or 'slave' ";
-    public static final String PORT_EXCEPTION = "Please use port greater than 1024 inorder to avoid protocol conflicts.";
-    public static final String INVALID_FOLDER_EXCEPTION = "File system path given does not exists or not a valid directory. Please create a folder:  %s";
-    public static final String PARAMETERS_SUCCESS = "Parameter check successful.";
-    public static final String SERVER_STARTING = "Command Server Starting at port: %s";
+    public static final String PORT_EXCEPTION = "Vui lòng sử dụng cổng lớn hơn 1024 inorder để tránh xung đột giao thức.";
+    public static final String INVALID_FOLDER_EXCEPTION = "Đường dẫn hệ thống tệp đã cung cấp không tồn tại hoặc không phải là một thư mục hợp lệ. Vui lòng tạo một thư mục:  %s";
+    public static final String PARAMETERS_SUCCESS = "Kiểm tra thông số thành công.";
+    public static final String SERVER_STARTING = "Máy chủ Lệnh Bắt đầu tại cổng: %s";
     public static final String COMMAND_FROM = "Command from : %s";
     public static final String NEW_CLIENT = "Got a new client %s: %s" ;
 
@@ -97,23 +97,23 @@ public class CoreConstants {
     public static final String PATH_INVALID = "Path does not exists or not a valid directory " ;
     public static final String INDEXING_FILE = "......Indexing %s";
     public static final String ACTION_START_SERVER = "Start Server";
-    public static final String START_SERVER_TITLE = "Server Login";
-    public static final String SERVER_NOTIFY_TITLE = "Server Notify";
-    public static final String START_SERVER_SUCCESS = "Start Server Successfully !!";
-    public static final String START_SERVER_FAIL = "Start Server Fail !!";
+    public static final String START_SERVER_TITLE = "Đăng nhập Server";
+    public static final String SERVER_NOTIFY_TITLE = "Thông báo Server";
+    public static final String START_SERVER_SUCCESS = "Start Server Thành công !!";
+    public static final String START_SERVER_FAIL = "Start Server Thất bại  !!";
     public static final String START_SERVER_SUCCESS_DESC = "Server start success on ip: %s";
     public static final String START_SERVER_FAIL_DESC = "Server start fail on ip: %s";
-    public static final String START_REMOTE = "Starting Remote File Sync.";
+    public static final String START_REMOTE = "Bắt đầu đồng bộ hóa tệp từ xa.";
     public static final String START_MASTER_MODE = "Starting in MASTER mode. port: %s";
     public static final String ERROR_WRITE_FILE = "Error in write file !!!";
 
-    public static final String CLIENT_DISCONNECT = "client disconnected. Socket closing...";
-    public static final String ACTION_CLIENT_OUT = "Client disconnected !!";
+    public static final String CLIENT_DISCONNECT = "client ngắt kết nối\n. Socket closing...";
+    public static final String ACTION_CLIENT_OUT = "Client ngắt kết nối\n !!";
     public static final String ACTION_CLIENT_OUT_DESC = "Client has disconnected To Server with ip: %s ";
     public static final String CLIENT_SELECT_NULL = "Undefined client to sync !!";
     public static final String CLIENT_SELECT_NULL_TITLE = "Error client to sync !!";
-    public static final String SYNC_SUCCESS = "Syncing successfully !!";
-    public static final String SYNC_SUCCESS_TITLE = "Syncing success !!";
+    public static final String SYNC_SUCCESS = "Đồng bộ thành công\n!!";
+    public static final String SYNC_SUCCESS_TITLE = "Đồng bộ thành công !!";
 
     // File Index
 
