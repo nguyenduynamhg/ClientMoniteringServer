@@ -7,6 +7,7 @@ import tasks.PreInitializer;
 import tasks.Tracker;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.InetAddress;
@@ -19,11 +20,14 @@ public class ServerLogin extends JFrame {
     private JButton btn_start;
 
     public ServerLogin(String title) {
-        super(title);
-        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+        this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         this.setContentPane(loginPanel);
+        this.setFocusableWindowState(true);
         this.pack();
         this.setLocationRelativeTo(null);
+        this.setSize(500, 300);
+        setVisible(false);
         JFrame thisFrame = this;
         JOptionPane dialog = new JOptionPane();
 
@@ -84,8 +88,22 @@ public class ServerLogin extends JFrame {
 
 
     public static void main(String[] args) {
+        final ImageIcon icon = new ImageIcon("photo-1592853285454-34691b7b74c4.jpeg");
+        JTextArea text = new JTextArea()
+        {
+            Image img = icon.getImage();
+            // instance initializer
+            {setOpaque(false);}
+            public void paintComponent(Graphics graphics)
+            {
+                graphics.drawImage(img, 0, 0, this);
+                super.paintComponent(graphics);
+            }
+        };
+        JScrollPane pane = new JScrollPane(text);
         JFrame frame = new ServerLogin(CoreConstants.START_SERVER_TITLE);
         frame.setVisible(true);
+
     }
 
 }

@@ -19,11 +19,13 @@ public class clientLogin extends JFrame {
     private JButton btn_connect;
 
     public clientLogin(String title) {
-        super(title);
-        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         this.setContentPane(loginPanel);
+        this.setFocusableWindowState(true);
         this.pack();
         this.setLocationRelativeTo(null);
+        this.setSize(500, 300);
+        setVisible(false);
         JFrame thisFrame = this;
         JOptionPane dialog = new JOptionPane();
 

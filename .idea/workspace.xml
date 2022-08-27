@@ -4,78 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac00d54-d157-47c3-a0eb-acad87737100" name="Changes" comment="Add: Log File">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_11_0__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_11_0_javadoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_11_0_javadoc__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_11_0_sources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_11_0_sources__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/.idea/libraries/commons_io_commons_io_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/lib/commons-io-2.11.0-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/lib/commons-io-2.11.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/lib/commons-io-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/base/RemoteFileSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/constants/CoreConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/constants/FileEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/network/FileSenderForSlave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/network/FileServerForSlave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/network/SlaveRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/tasks/FileSystemWatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/tasks/FileTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/tasks/PreInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/tasks/SimpleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/tasks/SlaveCommandListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/tasks/SocketConnectHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/tasks/Tracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/thread/MasterFileTransmitterThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/thread/MasterFileWatchThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/thread/UpdateGuiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/util/BindingSouceHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/util/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/util/LogItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/util/RFSyncUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/views/App.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/views/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/views/clientLogin.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/views/clientLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/.idea/libraries/commons_io_commons_io_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/lib/commons-io-2.11.0-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/lib/commons-io-2.11.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/lib/commons-io-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/base/RemoteFileSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/constants/CoreConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/network/CommandServerMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/tasks/PreInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/tasks/SimpleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/tasks/SocketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/tasks/Tracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/util/BindingSouceHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/util/FileNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/util/FileTreeModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/util/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/util/LogItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/util/RFSyncUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/util/TreeView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/views/App.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/views/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/views/ServerLogin.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/views/ServerLogin.java" afterDir="false" />
+    <list default="true" id="7ac00d54-d157-47c3-a0eb-acad87737100" name="Changes" comment="Add: Form serverLogin, clientLogin">
+      <change afterPath="$PROJECT_DIR$/photo-1592853285454-34691b7b74c4.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/views/clientLogin.form" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/views/clientLogin.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/views/clientLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/views/clientLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/constants/CoreConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/constants/CoreConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/views/ServerLogin.form" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/views/ServerLogin.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/views/ServerLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/views/ServerLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +44,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "/home/namnd/Desktop/ClientMoniteringServer/Server",
+    "last_opened_file_path": "/home/namnd/Desktop/ClientMoniteringServer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,11 +56,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Server" />
       <recent name="$PROJECT_DIR$/Client" />
       <recent name="$PROJECT_DIR$/Server/src" />
       <recent name="$PROJECT_DIR$/Client/src" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -185,7 +121,8 @@
       <option name="presentableId" value="Default" />
       <updated>1661446470848</updated>
       <workItem from="1661446474051" duration="300000" />
-      <workItem from="1661526852921" duration="3339000" />
+      <workItem from="1661526852921" duration="3844000" />
+      <workItem from="1661571497078" duration="3288000" />
     </task>
     <task id="LOCAL-00001" summary="Add: Log File">
       <created>1661528279441</created>
@@ -194,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661528279441</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add: Form serverLogin, clientLogin">
+      <created>1661531019020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661531019020</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add: Log File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: Log File" />
+    <MESSAGE value="Add: Form serverLogin, clientLogin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: Form serverLogin, clientLogin" />
   </component>
 </project>

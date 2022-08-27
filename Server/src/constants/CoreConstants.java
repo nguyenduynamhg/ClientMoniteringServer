@@ -12,7 +12,7 @@ public class CoreConstants {
     public final static double MIN_JAVA_VERSION = 1.7D;
     public final static int MIN_PORT = 1024;
 
-    public final static int DEFAULT_PORT = 3000;
+    public final static int DEFAULT_PORT = 8000;
     public final static boolean APPEND_LOG_FILE = true;
 
     public static final String SEPARATOR = "~";
@@ -27,8 +27,8 @@ public class CoreConstants {
     public static int noLog = 1;
     public static final String MASTER = "master";
     public static String DEFAULT_WATCH_FOLDER = "/home/namnd/Desktop/java/";
-    public static final Object[] LOG_HEADER_COLUMNS = {"No", "Action", "IP Client", "Description", "Created At"};
-    public static final Object[] CLIENT_HEADER_COLUMNS = {"No", "IP Client"};
+    public static final Object[] LOG_HEADER_COLUMNS = {"STT", "Hành động", "Địa chỉ IP Client", "Mô tả", "Thời gian tạo"};
+    public static final Object[] CLIENT_HEADER_COLUMNS = {"STT", "Địa chỉ IP Client"};
     public static ArrayList<LogItem> logs = new ArrayList<LogItem>();
     public static DefaultListModel clientIps = new DefaultListModel();
     public static DefaultTableModel modelLogs = new DefaultTableModel(){};
@@ -49,12 +49,12 @@ public class CoreConstants {
     public static final String ACTION_LIST_DIR = "LDIR";
 
     // client action
-    public static final String ACTION_CLIENT_CREATE_FILE = "Client create file %s on %s";
-    public static final String ACTION_CLIENT_MODIFY_FILE = "Client modify file %s on %s";
-    public static final String ACTION_CLIENT_DELETE_FILE = "Client delete file %s on %s";
-    public static final String ACTION_CLIENT_CREATE_FOLDER = "Client create folder %s on %s";
-    public static final String ACTION_CLIENT_MODIFY_FOLDER = "Client modify folder %s on %s";
-    public static final String ACTION_CLIENT_DELETE_FOLDER = "Client delete folder %s on %s";
+    public static final String ACTION_CLIENT_CREATE_FILE = "Client Tạo file %s on %s";
+    public static final String ACTION_CLIENT_MODIFY_FILE = "Client Chỉnh sửa file %s on %s";
+    public static final String ACTION_CLIENT_DELETE_FILE = "Client Xoá file %s on %s";
+    public static final String ACTION_CLIENT_CREATE_FOLDER = "Client Tạo folder %s on %s";
+    public static final String ACTION_CLIENT_MODIFY_FOLDER = "Client Chỉnh sửa folder %s on %s";
+    public static final String ACTION_CLIENT_DELETE_FOLDER = "Client Xoá folder %s on %s";
 
     // name action
     public static final String ACTION_CLIENT_JOIN = "Client Join";
@@ -62,22 +62,22 @@ public class CoreConstants {
     public static final String ACTION_CLIENT_SEND_WATCH_DIR = "Client send watch directory ";
     public static final String ACTION_CLIENT_SEND_WATCH_DIR_DESC = "Client has send watch directory To Server with ip: %s ";
     public static final String WATCH_DIR = "Client has send watch directory %s To Server with ip: %s and port: %s";
-    public static final String ACTION_LOG_CREATE_FILE = "CREATE FILE %s";
-    public static final String ACTION_LOG_CREATE_FOLDER = "CREATE FOLDER %s";
-    public static final String ACTION_LOG_DELETE_FILE = "DELETE FILE %s";
-    public static final String ACTION_LOG_DELETE_FOLDER = "DELETE FOLDER %s";
-    public static final String ACTION_LOG_MODIFY_FILE = "MODIFY FILE %s";
-    public static final String ACTION_LOG_MODIFY_FOLDER = "MODIFY FOLDER %s";
+    public static final String ACTION_LOG_CREATE_FILE = "Tạo FILE %s";
+    public static final String ACTION_LOG_CREATE_FOLDER = "Tạo FOLDER %s";
+    public static final String ACTION_LOG_DELETE_FILE = "Xoá FILE %s";
+    public static final String ACTION_LOG_DELETE_FOLDER = "Xoá FOLDER %s";
+    public static final String ACTION_LOG_MODIFY_FILE = "Chỉnh sửa FILE %s";
+    public static final String ACTION_LOG_MODIFY_FOLDER = "Chỉnh sửa FOLDER %s";
 
-    public static final String CLIENT_SEND_DIR = "Client send files in directories";
-    public static final String ACTION_SEND_DIR = "Client has send files from folder To Server with ip: %s";
-    public static final String ACTION_SEND_DIR_DESC = "Client has send files from folder To Server with ip: %s";
+    public static final String CLIENT_SEND_DIR = "Client Gửi files in directories";
+    public static final String ACTION_SEND_DIR = "Client đã gửi File từ folder đến Server với địa chỉ ip: %s";
+    public static final String ACTION_SEND_DIR_DESC = "Client đã gửi File từ folder đến Server với địa chỉ ip: %s";
 
     // text
 
-    public static final String IP_LABEL = "Ip";
-    public static final String ACTION_LABEL = "Action";
-    public static final String TIME_LABEL = "Time";
+    public static final String IP_LABEL = "Địa chỉ Ip";
+    public static final String ACTION_LABEL = "Hành động";
+    public static final String TIME_LABEL = "Thời gian";
     public static final String APP_TITLE = "Client Remote Monitor App";
     public static final String PARAMETERS_EXCEPTION = "Run with required parameters. Example: java RemoteFileSync master 8888 c:\\test\\";
     public static final String FIRST_PARAMETERS_EXCEPTION = "First argument should be 'master' or 'slave' ";

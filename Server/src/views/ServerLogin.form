@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="loginPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="true" hgap="20" vgap="20">
     <margin top="50" left="50" bottom="50" right="50"/>
     <constraints>
-      <xy x="12" y="11" width="801" height="456"/>
+      <xy x="12" y="11" width="833" height="416"/>
     </constraints>
     <properties>
       <autoscrolls value="true"/>
@@ -20,32 +20,14 @@
       <title-color color="-14014533"/>
     </border>
     <children>
-      <component id="e3918" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="107" height="16"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value="Server IP: "/>
-        </properties>
-      </component>
       <component id="e48db" class="javax.swing.JLabel">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
-            <preferred-size width="107" height="16"/>
+            <preferred-size width="176" height="16"/>
           </grid>
         </constraints>
         <properties>
-          <text value="Port: "/>
-        </properties>
-      </component>
-      <component id="13c7b" class="javax.swing.JLabel" binding="lb_ip">
-        <constraints>
-          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Label"/>
+          <text value="Nhập Port Number: "/>
         </properties>
       </component>
       <component id="ecea7" class="javax.swing.JTextField" binding="txt_port">
@@ -66,6 +48,24 @@
           <foreground color="-4474693"/>
           <hideActionText value="true"/>
           <text value="Start server"/>
+        </properties>
+      </component>
+      <component id="e3918" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="176" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Nhập Server IP Add: "/>
+        </properties>
+      </component>
+      <component id="13c7b" class="javax.swing.JLabel" binding="lb_ip">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
         </properties>
       </component>
     </children>
