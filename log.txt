@@ -16,3 +16,10 @@
 16 ~ 192.168.1.16 ~ Client Join ~ Client has Join To Server with ip: 192.168.1.16 ~ 27/08/2022 16:16:32
 17 ~ 192.168.1.16 ~ Client send watch directory  ~ Client has send watch directory To Server with ip: 192.168.1.16  ~ 27/08/2022 16:16:32
 18 ~ 192.168.1.16 ~ Start Server ~ Server start success on ip: 192.168.1.16 ~ 28/08/2022 18:37:52
+19 ~ 192.168.1.16 ~ Start Server ~ Server start success on ip: 192.168.1.16 ~ 28/08/2022 18:44:48
+20 ~ 192.168.1.16 ~ Client Join ~ Client has Join To Server with ip: 192.168.1.16 ~ 28/08/2022 18:44:54
+21 ~ 192.168.1.16 ~ Client send watch directory  ~ Client has send watch directory To Server with ip: 192.168.1.16  ~ 28/08/2022 18:44:54
+22 ~ 192.168.1.16 ~ Client Join ~ Client has Join To Server with ip: 192.168.1.16 ~ 28/08/2022 18:45:06
+23 ~ 192.168.1.16 ~ Client send watch directory  ~ Client has send watch directory To Server with ip: 192.168.1.16  ~ 28/08/2022 18:45:06
+24 ~ 192.168.1.16 ~ Client ngắt kết nối
+ !! ~ Client has disconnected To Server with ip: 192.168.1.16  ~ 28/08/2022 18:46:58
