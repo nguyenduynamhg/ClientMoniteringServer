@@ -1,7 +1,7 @@
 package Remote;
 
 import constants.CoreConstants;
-import util.RFSyncUtil;
+import utilitis.RFSyncUtil;
 
 import java.io.File;
 

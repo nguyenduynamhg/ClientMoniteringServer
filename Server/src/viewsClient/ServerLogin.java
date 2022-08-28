@@ -1,6 +1,6 @@
-package views;
+package viewsClient;
 
-import base.RemoteFileSync;
+import Remote.RemoteFileSync;
 import constants.CoreConstants;
 import network.CommandServerMaster;
 import tasks.PreInitializer;

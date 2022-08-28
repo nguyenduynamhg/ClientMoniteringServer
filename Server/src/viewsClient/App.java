@@ -1,9 +1,9 @@
-package views;
+package viewsClient;
 
 import constants.CoreConstants;
 import tasks.Tracker;
-import util.FileNode;
-import util.TreeView;
+import utilitis.FileNode;
+import utilitis.TreeView;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

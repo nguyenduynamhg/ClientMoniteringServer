@@ -1,4 +1,4 @@
-package util;
+package utilitis;
 
 import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;

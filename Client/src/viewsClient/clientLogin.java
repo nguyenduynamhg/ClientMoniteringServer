@@ -1,4 +1,4 @@
-package views;
+package viewsClient;
 
 import Remote.RemoteFileSync;
 import constants.CoreConstants;

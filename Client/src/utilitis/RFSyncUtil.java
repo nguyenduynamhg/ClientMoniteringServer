@@ -1,4 +1,4 @@
-package util;
+package utilitis;
 
 import constants.CoreConstants;
 

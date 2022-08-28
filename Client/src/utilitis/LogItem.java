@@ -1,4 +1,4 @@
-package util;
+package utilitis;
 
 public class LogItem {
     private String ipClient;

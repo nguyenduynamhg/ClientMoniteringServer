@@ -1,4 +1,4 @@
-package views;
+package viewsClient;
 
 import constants.CoreConstants;
 import network.SlaveRegister;
@@ -12,7 +12,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import java.io.IOException;
-import java.net.Socket;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 

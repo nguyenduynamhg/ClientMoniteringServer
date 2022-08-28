@@ -1,9 +1,8 @@
 package constants;
 
-import util.FileUtil;
-import util.LogItem;
+import utilitis.FileUtil;
+import utilitis.LogItem;
 
-import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.io.FileNotFoundException;
 import java.net.Socket;

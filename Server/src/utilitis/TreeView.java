@@ -1,4 +1,4 @@
-package util;
+package utilitis;
 
 import javax.swing.tree.DefaultMutableTreeNode;
 import java.io.File;

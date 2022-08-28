@@ -1,4 +1,4 @@
-package util;
+package utilitis;
 
 import javax.swing.tree.TreeModel;
 import java.io.File;

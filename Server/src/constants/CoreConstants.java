@@ -1,6 +1,6 @@
 package constants;
 
-import util.LogItem;
+import utilitis.LogItem;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

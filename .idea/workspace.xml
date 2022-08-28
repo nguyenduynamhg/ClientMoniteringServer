@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac00d54-d157-47c3-a0eb-acad87737100" name="Changes" comment="Fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/views/clientLogin.form" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/views/clientLogin.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/views/ServerLogin.form" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/views/ServerLogin.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-    </list>
+    <list default="true" id="7ac00d54-d157-47c3-a0eb-acad87737100" name="Changes" comment="Update Remote" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,6 +118,7 @@
       <workItem from="1661587586894" duration="5281000" />
       <workItem from="1661617560674" duration="1486000" />
       <workItem from="1661678537942" duration="1127000" />
+      <workItem from="1661686447171" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="Add: Log File">
       <created>1661528279441</created>
@@ -152,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661591525243</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update Remote">
+      <created>1661686713097</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661686713097</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +190,7 @@
     <MESSAGE value="Add: Form serverLogin, clientLogin" />
     <MESSAGE value="Add: Update serverLogin, clientLogin" />
     <MESSAGE value="Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+    <MESSAGE value="Update Remote" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Remote" />
   </component>
 </project>

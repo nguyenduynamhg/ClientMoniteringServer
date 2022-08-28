@@ -2,8 +2,8 @@ package tasks;
 
 import constants.CoreConstants;
 import org.apache.commons.io.input.ReversedLinesFileReader;
-import util.BindingSouceHelper;
-import util.LogItem;
+import utilitis.BindingSouceHelper;
+import utilitis.LogItem;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;

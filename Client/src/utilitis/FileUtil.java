@@ -1,11 +1,10 @@
-package util;
+package utilitis;
 
 import constants.CoreConstants;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class FileUtil {
 
@@ -22,7 +21,6 @@ public class FileUtil {
         Map<String, Long> list = new HashMap<String, Long>();
         File parentFile = new File(filePath);
         if (parentFile.exists() && parentFile.isDirectory()) {
-
             generateRecursiveFileList(parentFile, list);
         } else {
             throw new FileNotFoundException(CoreConstants.PATH_INVALID);
@@ -34,6 +32,7 @@ public class FileUtil {
     private static void generateRecursiveFileList(File f, Map<String, Long> list) {
         if (f.isDirectory()) {
             File[] files = f.listFiles();
+            System.out.println("TEST");
             for (File subDirOrFile : files) {
                 generateRecursiveFileList(subDirOrFile, list);
             }
@@ -43,5 +42,4 @@ public class FileUtil {
             list.put(f.getAbsolutePath(), f.lastModified());
         }
     }
-
 }
