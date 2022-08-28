@@ -12,8 +12,8 @@
     <clientProperties>
       <html.disable class="java.lang.Boolean" value="true"/>
     </clientProperties>
-    <border type="bevel-lowered" title="Connect Server" title-justification="2" title-position="2">
-      <font name="Hack" size="16" style="0"/>
+    <border type="bevel-lowered" title="Client" title-justification="2" title-position="2">
+      <font name="Hack" size="16" style="1"/>
       <title-color color="-14014533"/>
     </border>
     <children>

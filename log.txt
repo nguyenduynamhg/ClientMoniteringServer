@@ -12,3 +12,7 @@
 12 ~ 192.168.1.16 ~ Start Server ~ Server start success on ip: 192.168.1.16 ~ 27/08/2022 11:17:50
 13 ~ 192.168.1.16 ~ Start Server ~ Server start success on ip: 192.168.1.16 ~ 27/08/2022 16:06:21
 14 ~ 192.168.1.16 ~ Start Server ~ Server start success on ip: 192.168.1.16 ~ 27/08/2022 16:10:40
+15 ~ 192.168.1.16 ~ Start Server ~ Server start success on ip: 192.168.1.16 ~ 27/08/2022 16:16:27
+16 ~ 192.168.1.16 ~ Client Join ~ Client has Join To Server with ip: 192.168.1.16 ~ 27/08/2022 16:16:32
+17 ~ 192.168.1.16 ~ Client send watch directory  ~ Client has send watch directory To Server with ip: 192.168.1.16  ~ 27/08/2022 16:16:32
+18 ~ 192.168.1.16 ~ Start Server ~ Server start success on ip: 192.168.1.16 ~ 28/08/2022 18:37:52

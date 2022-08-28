@@ -1,4 +1,4 @@
-package base;
+package Remote;
 
 import constants.CoreConstants;
 import util.RFSyncUtil;

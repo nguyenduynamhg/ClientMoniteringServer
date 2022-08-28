@@ -1,6 +1,6 @@
 package views;
 
-import base.RemoteFileSync;
+import Remote.RemoteFileSync;
 import constants.CoreConstants;
 import network.FileServerForSlave;
 import network.SlaveRegister;
